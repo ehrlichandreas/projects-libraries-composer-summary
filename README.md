@@ -10,12 +10,16 @@ Installation
 2) Go into the project
 
 	cd projects-libraries-composer-summary
+	
+3) Pull the newest contents of the project
 
-3) Download composer.phar
+	git pull
+
+4) Download composer.phar
 
 	Use tutorial on https://getcomposer.org/download/
 
-4) Update composer and download the latest libraries
+5) Update composer and download the latest libraries
 
 	rm composer.lock
 	php composer.phar selfupdate
@@ -23,3 +27,10 @@ Installation
 	php composer.phar update -o
 	php composer.phar dump-autoload -o
 
+6) Use the vendor autoloader in your php scripts
+
+	include_once THISPATH . '/vendor/autoload.php';
+	
+    or
+	
+	include_once THISPATH . '/vendor/autoload_52.php';
