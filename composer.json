@@ -64,11 +64,6 @@
         {
             "type": "git",
             "url": "https://github.com/ehrlichandreas/ehrlichandreas1-versioningcms.git"
-        },
-        
-        {
-            "type": "git",
-            "url": "https://github.com/ehrlichandreas/projects-libraries-composer-summary.git"
         }
     ],
     "require": 
@@ -97,9 +92,7 @@
 
         "zendframework/zendframework1" :                "1.*",
 
-        "zendframework/zendframework" :                 "2.*",
-        
-        "ehrlichandreas/projects-libraries-composer-summary": "dev-master"
+        "zendframework/zendframework" :                 "2.*"
     },
     "require-dev":
     {
