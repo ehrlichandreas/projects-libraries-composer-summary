@@ -31,6 +31,6 @@ Installation
 
 	include_once THISPATH . '/vendor/autoload.php';
 	
-    or
+  or
 	
 	include_once THISPATH . '/vendor/autoload_52.php';
