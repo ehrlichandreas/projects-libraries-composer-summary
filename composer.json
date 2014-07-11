@@ -68,6 +68,11 @@
         {
             "type": "git",
             "url": "https://github.com/ehrlichandreas/ehrlichandreas1-versioningcms.git"
+        },
+
+        {
+            "type": "git",
+            "url": "https://github.com/ehrlichandreas/newslettercms.git"
         }
     ],
     "require": 
@@ -77,27 +82,20 @@
         "ehrlichandreas/composer-php52":                "dev-master",
 
         "ehrlichandreas/ehrlichandreas1-abstractcms":   "dev-master",
-        
         "ehrlichandreas/ehrlichandreas1-db":            "dev-master",
-        
         "ehrlichandreas/ehrlichandreas1-mvc":           "dev-master",
-        
         "ehrlichandreas/ehrlichandreas1-pdo":           "dev-master",
-        
         "ehrlichandreas/ehrlichandreas1-util":          "dev-master",
         
         "ehrlichandreas/ehrlichandreas1-blogcms":       "dev-master",
-        
         "ehrlichandreas/ehrlichandreas1-keyvaluecms":   "dev-master",
-        
         "ehrlichandreas/ehrlichandreas1-newslettercms": "dev-master",
-        
         "ehrlichandreas/ehrlichandreas1-stockcms":      "dev-master",
-        
         "ehrlichandreas/ehrlichandreas1-versioningcms": "dev-master",
+        
+        "ehrlichandreas/newslettercms":                 "dev-master",
 
         "zendframework/zendframework1" :                "1.*",
-
         "zendframework/zendframework" :                 "2.*"
     },
     "require-dev":
