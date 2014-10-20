@@ -84,7 +84,7 @@
     {
         "php":                                          ">=5.1",
 
-        "sebastianbergmann/phpunit":                    "4.3.*",
+        "phpunit/phpunit":                              "4.3.*",
 
         "ehrlichandreas/composer-php52":                "dev-master",
 
