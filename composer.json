@@ -25,6 +25,11 @@
     [
         {
             "type": "git",
+            "url": "https://github.com/sebastianbergmann/phpunit.git"
+        },
+
+        {
+            "type": "git",
             "url": "https://github.com/ehrlichandreas/composer-php52.git"
         },
 
@@ -78,6 +83,8 @@
     "require": 
     {
         "php":                                          ">=5.1",
+
+        "sebastianbergmann/phpunit":                    "4.3.*",
 
         "ehrlichandreas/composer-php52":                "dev-master",
 
